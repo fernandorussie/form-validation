@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body onload="init()">
+    <span class="loader"></span>
+    <main class="container">
+        <div class="conteudo">
+            <form class="form">
+                <label for="">
+                    Nome:
+                    <input class="input-form" type="text" name="nome" id="nome" required minlength="4" placeholder="Digite seu nome:">
+                </label>
+                <label for="">
+                    Email:
+                    <input class="input-form" type="email" name="email" id="email" required
+                    placeholder="Digite seu email:">
+                </label>
+                <label for="">
+                    Senha:
+                    <input class="input-form" type="password" name="senha" id="senha" required minlength="6" placeholder="Digite sua senha:">
+                </label>   
+                <input class="btn-form" type="button" value="Enviar" id="enviar" onclick="send()"> 
+            </form>
+        </div>
+       <button onclick="abrir()" id="btn1">Abrir</button>
+       <button onclick="fechar()" id="btn2">Fechar</button>
+    </main>
+    
+   
+
+   
+</body>
+<script src="script.js"></script>
+</html>
