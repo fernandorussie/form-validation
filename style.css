@@ -47,8 +47,9 @@ form{
     background-color: rgb(169, 203, 247);
 
     position: absolute;
-    left: 60%;
-    bottom: 30%;
+    left: 50%;
+    bottom: 55%;
+    transform: translateX(-50%);
 }
 .btn-form{
     width: 80px;
